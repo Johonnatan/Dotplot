@@ -22,8 +22,6 @@ hist(dados$Rate,
      labels = FALSE)
 grid()
 
-lines(density(dados$Rate), lwd = 2, col = "red")
-
 #Encontrar os maiores casos
 plot(dados$Cause, dados$Rate)
 dotplot(dados$Rate)
